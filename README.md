@@ -2,6 +2,8 @@
 
 Here I simply iterated trhough each pair from interval start to interval end, then I added a value 1 to an empty array at the index position of the interval.  At the end I just iterated from 0 to te end of the array and added all the values together and returned the number.
 
+But in order to deal with negative numbers I first checked every value and added the lowest negative number to a value.  Then I multiply this number by -1 to make it positive.  Finally I iterate through the arrays again and add the new value to all numbers.
+
 https://www.codewars.com/kata/52b7ed099cdc285c300001cd/train/javascript
 
 
